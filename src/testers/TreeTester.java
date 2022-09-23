@@ -1,3 +1,9 @@
+package testers;
+import git.Blob;
+import git.Commit;
+import git.Index;
+import git.Tree;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.BufferedReader;
@@ -14,7 +20,9 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-class TreeTest {
+import git.Tree;
+
+class TreeTester {
 	static ArrayList<String> array= new ArrayList<String>();
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {

@@ -1,3 +1,4 @@
+package git;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -36,6 +37,9 @@ public class Tree {
 		for (int i = 0; i < list.size(); i++) {
 			if (i < list.size() - 1) {
 				addedUp += list.get(i);
+				addedUp += " ";
+				File temp = new File("objects/" + list.get(i).substring(list.get(i).indexOf(":" + 2)));
+				addedUp += temp.getName();
 				addedUp += "\n";
 			}
 			else if (i == list.size() - 1) {

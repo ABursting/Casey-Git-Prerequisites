@@ -1,4 +1,10 @@
+package testers;
+
 import static org.junit.jupiter.api.Assertions.*;
+import git.Blob;
+import git.Commit;
+import git.Index;
+import git.Tree;
 
 import java.io.File;
 import java.io.FileNotFoundException;
