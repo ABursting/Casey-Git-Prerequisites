@@ -1,7 +1,5 @@
 package testers;
 
-
-
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
@@ -19,7 +17,7 @@ import org.junit.platform.suite.api.SuiteDisplayName;
 @SuiteDisplayName("Git Project Tester")
 @SelectPackages("testers")
 @IncludeClassNamePatterns(".*Tester")
-class GitProjectTester {
+class AllTests {
     
     @Test
     public void test() {

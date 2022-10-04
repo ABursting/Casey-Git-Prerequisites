@@ -6,20 +6,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/asherburstin/Downloads/junit-jupiter-5.9.0.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/asherburstin/Downloads/junit-jupiter-api-5.9.0.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/asherburstin/Downloads/junit-platform-suite-api-1.9.0.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="/Users/asherburstin/Downloads/junit-jupiter-5.9.0.jar"/>
+	<classpathentry kind="lib" path="/Users/asherburstin/Downloads/junit-jupiter-api-5.9.0.jar"/>
+	<classpathentry kind="lib" path="/Users/asherburstin/Downloads/junit-platform-suite-api-1.9.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

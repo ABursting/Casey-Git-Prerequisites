@@ -1,10 +1,12 @@
 package testers;
 
-import static org.junit.jupiter.api.Assertions.*;
 import git.Blob;
 import git.Commit;
 import git.Index;
 import git.Tree;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -21,6 +23,8 @@ import java.util.Scanner;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
+
 
 class CaseyTester {
 
